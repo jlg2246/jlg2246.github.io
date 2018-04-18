@@ -1,0 +1,185 @@
+body {
+	background-color: #E1E5F2; 
+	font-family: 'Tajawal', sans-serif;
+	margin: 25px;
+
+}
+
+.title {
+	font-size: 60px;
+	text-align: center;
+	font-family: 'Courgette', cursive;
+	color: #BF2062;
+}
+
+.menu ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.menu li {
+	list-style: none;
+	font-size: 30px;
+	font-weight: bold;
+	color: #BA3F43;
+} 
+
+a:link {
+	text-decoration: none;
+	color: purple;
+}
+
+a:visited {
+	color: purple;
+}
+
+a:hover {
+	color: #BA3F43;
+}
+
+.Home {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+.intro {
+	width: 300px;
+	font-size: 25px;
+	color: #56134D;
+	margin: 5px;
+}
+
+#home_pic {
+	width: 60%;
+	align-self: center; /* stops stretching of img*/
+}
+
+.about_city {
+	font-size: 15px;
+	color: #56134D;
+	font-size: 17px;
+	text-align: center;
+}
+
+.city_name {
+	font-size: 45px;
+	color: #440381;
+	text-align: center;
+	font-family: 'Acme', sans-serif;
+}
+
+
+.city_photo {
+	width: 100%;
+	border-radius: 10px;
+}
+
+
+.place {
+	font-size: 35px;
+	color: #A8577D;
+}
+
+.photos {
+ display: flex;
+ justify-content: space-around;
+}
+
+.photos img {
+	width: 32%;
+	border-radius: 10px;
+	align-self: center;
+}
+
+
+.description {
+	color: #56134D;
+	font-size: 15px;
+}
+
+.footer {
+	background-color: #EAC2D5;
+}
+
+.footer p {
+	text-align: center;
+	padding-top: 15px;
+	font-size: 17px;
+	font-family: 'Courgette', cursive;
+	color: #432534;
+}
+
+.sub_footer ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.sub_footer li {
+	list-style: none;
+	font-size: 17px;
+	font-style: italic;
+	color: #432534;
+} 
+
+@media (max-width: 920px) {
+	.menu ul {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		text-align: center;
+		padding-left: 0px;
+	}
+	
+	.photos {
+		display: flex;
+		flex-direction: column;
+
+	}
+	.photos img {
+		width: 100%;
+		margin: 10px;
+	}
+
+	.about_city {
+	font-size: 20px;
+	}
+	
+}
+
+@media (max-width: 760px) {
+	.Home {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	}
+
+	.intro {
+		width: 95%;
+		text-align: center
+	}
+
+	#home_pic {
+	width: 95%;
+	align-self: center; /* stops stretching of img*/
+	}
+}
+
+@media (max-width:560px) {
+	.sub_footer p {
+		text-align: center;
+		padding-left: 0px;
+	}
+
+
+	.sub_footer ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+	padding-left: 0px;
+	}
+
+}
