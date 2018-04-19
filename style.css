@@ -1,5 +1,5 @@
 body {
-	background-color: #E1E5F2; 
+	background-color: #FCFCFC;
 	font-family: 'Tajawal', sans-serif;
 	margin: 25px;
 
@@ -101,11 +101,11 @@ a:hover {
 
 .footer {
 	background-color: #EAC2D5;
+	padding: 1px;
 }
 
 .footer p {
 	text-align: center;
-	padding-top: 15px;
 	font-size: 17px;
 	font-family: 'Courgette', cursive;
 	color: #432534;
